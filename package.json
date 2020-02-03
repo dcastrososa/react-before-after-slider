@@ -1,31 +1,27 @@
 {
-  "_args": [
-    [
-      "react-before-after-slider@1.0.4",
-      "/var/www/html/pt/inverxo/views"
-    ]
-  ],
-  "_from": "react-before-after-slider@1.0.4",
+  "_from": "react-before-after-slider",
   "_id": "react-before-after-slider@1.0.4",
   "_inBundle": false,
   "_integrity": "sha512-zXuaiDqJkgkZ/9RaHKXS5Dh+zsOQW5b9nPgQbXt1fcI1bF4q+l/KCM50qhhH/EHKLhbtUYAb7nhqViowFbC3ZQ==",
   "_location": "/react-before-after-slider",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
+    "type": "tag",
     "registry": true,
-    "raw": "react-before-after-slider@1.0.4",
+    "raw": "react-before-after-slider",
     "name": "react-before-after-slider",
     "escapedName": "react-before-after-slider",
-    "rawSpec": "1.0.4",
+    "rawSpec": "",
     "saveSpec": null,
-    "fetchSpec": "1.0.4"
+    "fetchSpec": "latest"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/react-before-after-slider/-/react-before-after-slider-1.0.4.tgz",
-  "_spec": "1.0.4",
+  "_shasum": "86bd00ec622132ecc632d5ce32b6ad16aa5ab120",
+  "_spec": "react-before-after-slider",
   "_where": "/var/www/html/pt/inverxo/views",
   "author": {
     "name": "transitive-bullshit"
@@ -33,10 +29,12 @@
   "bugs": {
     "url": "https://github.com/transitive-bullshit/react-before-after-slider/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "classnames": "^2.2.5",
     "react-block-image": "^1.0.0"
   },
+  "deprecated": false,
   "description": "A sexy image comparison slider for React.",
   "devDependencies": {
     "babel-core": "^6.26.3",
