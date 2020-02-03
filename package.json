@@ -1,42 +1,43 @@
 {
-  "name": "react-before-after-slider",
-  "version": "1.0.4",
-  "description": "A sexy image comparison slider for React.",
-  "author": "transitive-bullshit",
-  "license": "MIT",
-  "reveal": true,
-  "repository": "transitive-bullshit/react-before-after-slider",
-  "main": "dist/index.js",
-  "module": "dist/index.es.js",
-  "jsnext:main": "dist/index.es.js",
-  "keywords": [
-    "react",
-    "before",
-    "after",
-    "image",
-    "slider",
-    "comparison",
-    "visual",
-    "before & after",
-    "juxtapose"
+  "_args": [
+    [
+      "react-before-after-slider@1.0.4",
+      "/var/www/html/pt/inverxo/views"
+    ]
   ],
-  "scripts": {
-    "test": "cross-env CI=1 react-scripts test --env=jsdom",
-    "test:watch": "react-scripts test --env=jsdom",
-    "build": "rollup -c",
-    "start": "rollup -c -w",
-    "prepare": "yarn run build",
-    "predeploy": "cd example && yarn install && yarn run build",
-    "deploy": "gh-pages -d example/build"
+  "_from": "react-before-after-slider@1.0.4",
+  "_id": "react-before-after-slider@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-zXuaiDqJkgkZ/9RaHKXS5Dh+zsOQW5b9nPgQbXt1fcI1bF4q+l/KCM50qhhH/EHKLhbtUYAb7nhqViowFbC3ZQ==",
+  "_location": "/react-before-after-slider",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-before-after-slider@1.0.4",
+    "name": "react-before-after-slider",
+    "escapedName": "react-before-after-slider",
+    "rawSpec": "1.0.4",
+    "saveSpec": null,
+    "fetchSpec": "1.0.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-before-after-slider/-/react-before-after-slider-1.0.4.tgz",
+  "_spec": "1.0.4",
+  "_where": "/var/www/html/pt/inverxo/views",
+  "author": {
+    "name": "transitive-bullshit"
+  },
+  "bugs": {
+    "url": "https://github.com/transitive-bullshit/react-before-after-slider/issues"
   },
   "dependencies": {
     "classnames": "^2.2.5",
     "react-block-image": "^1.0.0"
   },
-  "peerDependencies": {
-    "prop-types": "^15.6.2",
-    "react": "^15.0.0 || ^16.0.0"
-  },
+  "description": "A sexy image comparison slider for React.",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.5",
@@ -67,5 +68,41 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "homepage": "https://github.com/transitive-bullshit/react-before-after-slider#readme",
+  "jsnext:main": "dist/index.es.js",
+  "keywords": [
+    "react",
+    "before",
+    "after",
+    "image",
+    "slider",
+    "comparison",
+    "visual",
+    "before & after",
+    "juxtapose"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "name": "react-before-after-slider",
+  "peerDependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^15.0.0 || ^16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/transitive-bullshit/react-before-after-slider.git"
+  },
+  "reveal": true,
+  "scripts": {
+    "build": "rollup -c",
+    "deploy": "gh-pages -d example/build",
+    "predeploy": "cd example && yarn install && yarn run build",
+    "prepare": "yarn run build",
+    "start": "rollup -c -w",
+    "test": "cross-env CI=1 react-scripts test --env=jsdom",
+    "test:watch": "react-scripts test --env=jsdom"
+  },
+  "version": "1.0.4"
 }
